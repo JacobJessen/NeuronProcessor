@@ -45,6 +45,6 @@ Once above is installed the demo is set up by following steps
 
 - Open Vivado 
     - click: tools -> download latest boards (to get board files for Genesys 2)
-    - click: tools -> run tcl script
+    - click: tools -> run tcl script 
     - Choose the file "vivadoBuild.tcl" in this repository (This creates the demo Vivado Project in the repository folder and generates a bitstream file)
     - Program the FPGA through the hardware manager and download the generated bit stream
