@@ -28,11 +28,11 @@ add_files -norecurse ${projPath}mapping/evaldatac2e1.mem
 add_files -norecurse ${projPath}mapping/in0mem.mem
 add_files -norecurse ${projPath}mapping/in1mem.mem
 
-read_vhdl -vhdl2008 ${projPath}src/main/scala/top.vhd
-read_vhdl -vhdl2008 ${projPath}src/main/scala/constants_record_pkg.vhd
-read_vhdl -vhdl2008 ${projPath}src/main/scala/ControlUnit.vhd
-read_vhdl -vhdl2008 ${projPath}src/main/scala/NeuronEvaluator.vhd
-read_vhdl -vhdl2008 ${projPath}src/main/scala/EvaluationMemory.vhd
+read_vhdl -vhdl2008 ${projPath}src/main/VHDL/top.vhd
+read_vhdl -vhdl2008 ${projPath}src/main/VHDL/constants_record_pkg.vhd
+read_vhdl -vhdl2008 ${projPath}src/main/VHDL/ControlUnit.vhd
+read_vhdl -vhdl2008 ${projPath}src/main/VHDL/NeuronEvaluator.vhd
+read_vhdl -vhdl2008 ${projPath}src/main/VHDL/EvaluationMemory.vhd
 
 launch_runs synth_1
 wait_on_run synth_1
