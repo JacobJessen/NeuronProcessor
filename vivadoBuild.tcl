@@ -1,4 +1,4 @@
-set projPath
+set projPath 
 
 create_project KintexDemo ${projPath}VivadoProject/KintexDemo -part xc7k325tffg900-2
 set_property board_part digilentinc.com:genesys2:part0:1.1 [current_project]
