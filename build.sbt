@@ -1,4 +1,4 @@
-scalaVersion := "2.11.12"
+scalaVersion := "2.11.12" 
 
 resolvers ++= Seq(
   Resolver.sonatypeRepo("snapshots"),
