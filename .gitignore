@@ -1,0 +1,13 @@
+.metals*
+.bloop*
+project/*
+target/*
+.idea/
+
+*.hex
+*.mif
+test_run_dir/
+build/
+editedbackup/
+
+VivadoProject/KintexDemo/
