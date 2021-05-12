@@ -25,8 +25,6 @@ add_files -norecurse ${projPath}mapping/evaldatac3e0.mem
 add_files -norecurse ${projPath}mapping/evaldatac2e3.mem
 add_files -norecurse ${projPath}mapping/evaldatac3e5.mem
 add_files -norecurse ${projPath}mapping/evaldatac2e1.mem
-add_files -norecurse ${projPath}mapping/in0mem.mem
-add_files -norecurse ${projPath}mapping/in1mem.mem
 
 read_vhdl -vhdl2008 ${projPath}src/main/VHDL/top.vhd
 read_vhdl -vhdl2008 ${projPath}src/main/VHDL/constants_record_pkg.vhd
